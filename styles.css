@@ -1,0 +1,89 @@
+body {
+    background-color: #2a2a2e;
+    margin: 0;   
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    font-size: 28px;
+    margin-top: 24px;
+    text-decoration: none;  
+    position: relative; /* Make the pseudo-elements position relative to the link */
+}
+
+nav a::before,
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    margin-top: 5%;
+    height: 200%;
+    background-color: white;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+}
+
+nav a::before {
+    top: 15%; /* Adjust positioning */
+    left: -10px; /* Adjust for margin to prevent from touching the link */
+}
+
+nav a::after {
+    top: 15%; /* Adjust positioning */
+    right: -10px; /* Adjust for margin to prevent from touching the link */
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    transform: scaleY(1);
+}
+
+.titletext {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+
+.desctext {
+    color: white;
+    font-size: 22px;
+    margin: 5%;
+}
+
+#navbar {
+    background: #8f001a;
+    width: 100%;
+    height: 6%;
+    display: flex;
+}
+
+#centerpiece {
+    width: 30%;
+    height: 50%;
+    background-color: #2a2a2e;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20px;
+}
+
+#pagebody {
+    width: 100%;
+    height: 94%;
+    background-image: url('images/homepage-background-temp-only.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin: 20px;
+}
