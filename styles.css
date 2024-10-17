@@ -9,39 +9,99 @@ h1 {
 
 nav a {
     color: white;
-    margin: 20px;
     font-size: 28px;
     text-decoration: none;  
     position: relative;
 }
 
-/* nav a::before,
-nav a::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    margin-top: 5%;
-    height: 200%;
-    background-color: white;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 0.3s ease;
+nav ul {
+    list-style: none;
+    text-align: center;
 }
 
-nav a::before {
-    top: 15%; 
-    left: -10px;
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-nav a::after {
-    top: 15%;
-    right: -10px; 
+nav ul li a {
+    padding: 6px;
 }
 
-nav a:hover::before,
-nav a:hover::after {
-    transform: scaleY(1);
-} */
+/*
+    Animation from https://codepen.io/maheshambure21/pen/QwXaRw
+*/
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #6d071a;
+}
+
+nav.fill ul li a {
+  position: relative;
+}
+
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #6d071a;
+  height: 1px;
+}
+
+nav.fill ul li a {
+  transition: all 0s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/* Keyframes */
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 2px;
+    }
+    50% {
+      width: 100%;
+      height: 2px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #82071d;
+    }
+  }
+/*
+  End of section
+*/
+
 
 .titletext {
     color: white;
@@ -61,7 +121,7 @@ nav a:hover::after {
     width: 100%;
     height: 6%;
     display: flex;
-    min-height: 50px;
+    min-height: 60px;
 }
 
 #centerpiece {
