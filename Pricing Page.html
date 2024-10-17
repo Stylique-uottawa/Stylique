@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .pricing-container {
+            display: flex;
+            gap: 20px;
+            max-width: 1000px;
+        }
+
+        .pricing-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .pricing-card h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+            color: #007bff;
+            margin: 15px 0;
+        }
+
+        .description {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+        }
+
+        .sign-up {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sign-up:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="pricing-container">
+    <!-- Basic Plan -->
+    <div class="pricing-card">
+        <h2>Basic</h2>
+        <div class="price">$10/month</div>
+        <p class="description">Perfect for individuals starting out</p>
+        <ul class="features">
+            <li>5 Projects</li>
+            <li>10GB Storage</li>
+            <li>Email Support</li>
+        </ul>
+        <a href="#" class="sign-up">Sign Up</a>
+    </div>
+
+    <!-- Standard Plan -->
+    <div class="pricing-card">
+        <h2>Standard</h2>
+        <div class="price">$20/month</div>
+        <p class="description">Best for small teams and startups</p>
+        <ul class="features">
+            <li>20 Projects</li>
+            <li>50GB Storage</li>
+            <li>Priority Email Support</li>
+        </ul>
+        <a href="#" class="sign-up">Sign Up</a>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="pricing-card">
+        <h2>Premium</h2>
+        <div class="price">$50/month</div>
+        <p class="description">Ideal for large teams and enterprises</p>
+        <ul class="features">
+            <li>Unlimited Projects</li>
+            <li>200GB Storage</li>
+            <li>24/7 Support</li>
+        </ul>
+        <a href="#" class="sign-up">Sign Up</a>
+    </div>
+</div>
+
+</body>
+</html>
