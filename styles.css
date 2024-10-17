@@ -3,16 +3,19 @@ body {
     margin: 0;   
 }
 
+h1 {
+    font-family: 'Brush Script MT', cursive;
+}
+
 nav a {
     color: white;
     margin: 20px;
     font-size: 28px;
-    margin-top: 24px;
     text-decoration: none;  
-    position: relative; /* Make the pseudo-elements position relative to the link */
+    position: relative;
 }
 
-nav a::before,
+/* nav a::before,
 nav a::after {
     content: '';
     position: absolute;
@@ -26,19 +29,19 @@ nav a::after {
 }
 
 nav a::before {
-    top: 15%; /* Adjust positioning */
-    left: -10px; /* Adjust for margin to prevent from touching the link */
+    top: 15%; 
+    left: -10px;
 }
 
 nav a::after {
-    top: 15%; /* Adjust positioning */
-    right: -10px; /* Adjust for margin to prevent from touching the link */
+    top: 15%;
+    right: -10px; 
 }
 
 nav a:hover::before,
 nav a:hover::after {
     transform: scaleY(1);
-}
+} */
 
 .titletext {
     color: white;
@@ -50,6 +53,7 @@ nav a:hover::after {
     color: white;
     font-size: 22px;
     margin: 5%;
+    text-align: center;
 }
 
 #navbar {
@@ -57,14 +61,16 @@ nav a:hover::after {
     width: 100%;
     height: 6%;
     display: flex;
+    min-height: 50px;
 }
 
 #centerpiece {
-    width: 30%;
-    height: 50%;
+    width: 60vh;
+    height: 50vh;
     background-color: #2a2a2e;
     display: flex;
     flex-direction: column;
+    border-radius: 10%;
 }
 
 nav {
