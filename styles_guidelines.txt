@@ -1,0 +1,25 @@
+Overall Look of Stylique 
+
+The overall look should be vibrant, and colourful, where it keeps the attention of the viewers. It should reflect the creativity we want the users to have when using our website. 
+
+Colours
+_____________
+
+We chose 4 color swatches:  
+
+- #40A2E3
+- #FFF6E9
+- #BBE2EC
+- #0D9276
+
+Typography 
+_____________
+
+We will be using Montserrat from Google fonts. 
+We will use the same font for all headings and body texts. 
+
+Buttons 
+__________________
+
+Our buttons will be rounded rectangles. 
+
