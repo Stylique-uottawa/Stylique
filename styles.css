@@ -1,3 +1,11 @@
+/*
+Colour scheme:
+#40A2E3 - Blue
+#FFF6E9 - Beige
+#BBE2EC - Light Blue
+#0D9276 -
+*/
+
 body {
     background-color: #2a2a2e;
     margin: 0;   
@@ -38,7 +46,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: #6d071a;
+  color: #40A2E3;
 }
 
 nav.fill ul li a {
@@ -54,7 +62,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #6d071a;
+  background: #40A2E3;
   height: 1px;
 }
 
@@ -95,7 +103,7 @@ nav.fill ul li a:hover:after {
     100% {
       width: 100%;
       height: 100%;
-      background: #82071d;
+      background: #3991cb;
     }
   }
 /*
@@ -104,20 +112,20 @@ nav.fill ul li a:hover:after {
 
 
 .titletext {
-    color: white;
+    color: black;
     font-size: 64px;
     text-align: center;
 }
 
 .desctext {
-    color: white;
+    color: black;
     font-size: 22px;
     margin: 5%;
     text-align: center;
 }
 
 #navbar {
-    background: #8f001a;
+    background: #40A2E3;
     width: 100%;
     height: 6%;
     display: flex;
@@ -127,7 +135,7 @@ nav.fill ul li a:hover:after {
 #centerpiece {
     width: 60vh;
     height: 50vh;
-    background-color: #2a2a2e;
+    background-color: #FFF6E9;
     display: flex;
     flex-direction: column;
     border-radius: 10%;
