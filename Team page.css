@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#pagebody {
+.pagebody {
     display: flex;
     flex-direction: column;
     align-items: center;
