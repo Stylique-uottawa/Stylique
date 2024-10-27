@@ -2,10 +2,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pagebody {
+#pagebody {
+    width: 100%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('images/homepage-background-temp-only.webp')
+    background-size: cover;
+    justify-content: center;
 }
 
 .team-member {
