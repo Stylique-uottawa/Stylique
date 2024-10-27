@@ -19,6 +19,13 @@ h3 {
     font-family: 'Monttserrat', sans-serif;
 }
 
+img {
+    width: 64px;
+    height: 64px;
+    filter: invert(100%);
+    margin-left: 1%;
+}
+
 nav a {
     color: white;
     font-size: 28px;
@@ -160,8 +167,4 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#logo {
-    margin: 20px;
 }
