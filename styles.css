@@ -155,7 +155,7 @@ nav {
 #pagebody {
     width: 100%;
     height: 94%;
-    background-image: url('images/homepage-background-temp-only.webp');
+    background-image: url('images/background.webp');
     background-size: cover;
     display: flex;
     justify-content: center;
