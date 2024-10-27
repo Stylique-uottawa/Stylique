@@ -12,7 +12,11 @@ body {
 }
 
 h1 {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Monttserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Monttserrat', sans-serif;
 }
 
 nav a {
