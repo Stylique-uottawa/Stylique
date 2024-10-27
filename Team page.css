@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pagebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust width as needed */
+    justify-content: space-between;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.description {
+    max-width: 400px;
+    text-align: left;
+}
+
+.description p {
+    margin: 5px 0 0;
+    font-size: 1em;
+}
