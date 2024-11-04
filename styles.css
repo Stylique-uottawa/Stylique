@@ -6,6 +6,10 @@ Colour scheme:
 #0D9276 - Green
 */
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background-color: #2a2a2e;
     margin: 0;   
