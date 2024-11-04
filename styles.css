@@ -6,9 +6,6 @@ Colour scheme:
 #0D9276 - Green
 */
 
-* {
-  font-family: 'Montserrat', sans-serif;
-}
 
 body {
     background-color: #2a2a2e;
@@ -174,4 +171,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }

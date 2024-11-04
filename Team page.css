@@ -2,7 +2,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#pagebody {
+html {
+    overflow-y: hidden;
+}
+
+#pagebody .scrollable {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +19,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    width: 80%; 
     justify-content: space-between;
+    border-radius: 50%;
+}
+
+img.member-photo {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -32,11 +41,58 @@
 }
 
 .description {
-    max-width: 400px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: left;
 }
 
 .description p {
     margin: 5px 0 0;
     font-size: 1em;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 200px;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.green {
+    background-color: #0D9276;
+}
+.light-blue {
+    background-color: #BBE2EC;
+}
+.blue {
+    background-color: #40A2E3;
+}
+
+.right-align .description {
+    width: 100%;
+    text-align: right;
+    
+}
+
+.profile.right-align {
+    justify-content: flex-start;
+}
+
+.right-align {
+    flex-direction: row-reverse;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    filter: invert(0%);
+    vertical-align: middle;
+    padding-right: 10px;
 }
