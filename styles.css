@@ -57,7 +57,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: #40A2E3;
+  color: #cccbcb;
 }
 
 nav.fill ul li a {
@@ -73,7 +73,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #40A2E3;
+  background: #cccbcb;
   height: 1px;
 }
 
@@ -114,7 +114,7 @@ nav.fill ul li a:hover:after {
     100% {
       width: 100%;
       height: 100%;
-      background: #3991cb;
+      background: #cccbcb;
     }
   }
 /*
