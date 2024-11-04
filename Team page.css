@@ -96,3 +96,12 @@ img.member-photo {
     vertical-align: middle;
     padding-right: 10px;
 }
+
+img.member-photo {
+    filter: invert(0%);
+}
+
+strong h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
