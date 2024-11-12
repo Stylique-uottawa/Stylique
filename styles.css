@@ -6,6 +6,10 @@ Colour scheme:
 #0D9276 - Green
 */
 
+html {
+  overflow-y: hidden;
+}
+
 
 body {
     background-color: #2a2a2e;
