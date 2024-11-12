@@ -24,7 +24,7 @@ html {
 }
 
 img.member-photo {
-    width: 155px;
+    width: 150px;
     height: 150px;
     border-radius: 60%;
 }
@@ -101,7 +101,15 @@ img.member-photo {
     filter: invert(0%);
 }
 
+.right-align img.member-photo {
+    margin-right: 1%;
+}
+
 strong h3 {
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.proftext {
+    min-height: 39px;
 }
